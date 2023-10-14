@@ -1,0 +1,33 @@
+/*
+Name-Sanika Desai
+PRN-22070123098
+*/
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int prn;
+    int digit;
+    cout<<"Enter your prn:"<<endl;
+    cin>>prn;
+    while(prn>0)
+    {
+        digit=prn%10;
+        cout<<digit<<endl;
+        prn=prn/10;
+    }
+
+/*
+OUTPUT
+Enter your prn:
+123088
+8
+8
+0
+3
+2
+1
+*/
+
+
